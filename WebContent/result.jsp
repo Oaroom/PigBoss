@@ -79,6 +79,7 @@
 		</table>
 		<input type="submit" class="scoreB" value="결과 기록" onclick="window.open('saveResult.jsp?score=<%=score %>','결과 기록하기','width=430px,height=300px,location=0,status=no,scrollbars=yes');">
 		<input type="submit" class="scoreB" value="랭킹 보기" onclick="location.href='ranking.jsp'">
+		<input type="submit" class="scoreB" value="정답 보기" onclick="location.href='answer.jsp'">
 		<input type="submit" class="scoreB" value="메인 으로" onclick="location.href='index.jsp'">
 	</div>
 
