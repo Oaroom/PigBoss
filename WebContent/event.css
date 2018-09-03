@@ -1,0 +1,424 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: NanumSquareWeb;
+  src: local(NanumSquareR),
+       local(NanumSquare),
+       url(NanumSquareR.eot?#iefix) format('embedded-opentype'),
+       url(NanumSquareR.woff) format('woff'),
+       url(NanumSquareR.ttf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}
+
+
+body{
+	
+	background-color:#00a0ff;
+	font-family: NanumSquareWeb, sans-serif;
+
+ margin: 0; padding: 0;
+
+}
+
+#mainTable{
+	
+	width:100%;
+
+}
+
+#mainTable td{
+	
+	width:50%;
+	
+}
+
+#mainPage{
+	
+	text-align: center;
+	
+	
+	color:white;
+	font-family: NanumSquareWeb, sans-serif;
+	font-size: 15pt;
+
+	 letter-spacing:5px;
+	
+}
+
+#mainBack{
+
+	
+	background-color:#00a0ff;
+	
+	
+}
+
+
+#imgBlack{
+	
+	z-index:100;
+	
+	top:-10px;
+	
+	position:absolute;
+	float:right;
+	
+	width:100%;
+	height:1010px;
+
+	background-color: #000000;
+	opacity:0.5;
+	
+	
+	-moz-text-shadow: -1px 0 #555555, 0 1px #555555, 1px 0 #555555, 0 -1px #555555;
+    -webkit-text-shadow: -1px 0 #555555, 0 1px #555555, 1px 0 #555555, 0 -1px #555555;
+	
+	
+	
+}
+
+#mainImg{
+	
+	top:-10px;
+	
+	position:relative;
+	display: inline-block;
+	
+	float:right;
+	
+	width:100%;
+	height:1000px;
+	
+	float:right;
+	
+	background-image: url("img/food.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+	
+}
+
+#mainLogo{
+	
+	
+}
+
+
+.mainB{
+
+	width:200px;
+	height: 50px;
+	
+	background-color:#00a0ff;
+	
+	border:3px solid white;
+	border-radius: 40px;
+	
+	color:white;
+	font-size: 15pt;
+	
+	margin:70px 20px;
+	
+
+	
+}
+
+.mainB:hover{
+	
+	background-color: white;
+
+	color:#00a0ff;
+	font-weight: bolder;
+	
+}
+
+
+
+
+/*-------------help css---------------*/
+
+#Frame{
+	
+	width:60%;
+	min-height: 800px;
+	
+	margin:auto;
+	margin-bottom:50px;
+	padding: 20px;	
+	
+	background-color: white;
+	
+	border:1px solid white;
+	border-radius: 30px;
+	
+	box-shadow: 10px 10px #1678c0;
+	
+	font-size:20pt;
+	line-height:2em;
+	color:#555555;
+	
+	
+	
+
+}
+
+#helpTitle{
+	
+	color:white;
+	letter-spacing: 20px;
+	
+}
+
+
+.ruleTitle{
+	
+	margin:auto;
+	
+	width:300px;
+	
+	background-color:#00a0ff;
+	color:white;
+	
+	font-weight: bolder;
+	font-size:20pt;
+	
+	letter-spacing: 10pt;
+	
+	
+	
+}
+
+#ruleText{
+	
+	color:#1678c0;
+	font-weight: bolder;	
+}
+
+
+#helpB{
+	
+	width:300px;
+	height:70px;
+	
+	margin:60px;
+	
+	background-color: white;
+	
+	border:3px solid #00a0ff;
+	border-radius: 30px;
+	
+	color:#00a0ff;
+	font-size: 20pt;
+	
+	
+	
+}
+
+#helpB:hover{
+	
+	background-color:#00a0ff;
+	color:white;
+	font-weight: bolder;
+	
+}
+
+
+
+#sample{
+	
+	letter-spacing: 20px;
+	
+}
+
+#sample img{
+	
+	width:470px;
+	height: 300px;
+	
+}
+
+
+
+/*------------result CSS-------------*/
+
+
+#resultTable{
+	
+	margin:auto;
+	width:1100px;
+	
+}
+
+#resultTable th{
+	height: 30px;
+}
+
+#resultTable img{
+	
+	vertical-align: middle;
+	width:30px;
+	height: 30px;
+	
+}
+
+#resultTable th{
+	
+	border-bottom:4px solid #bbbbbb;
+	
+}
+
+#resultBack{
+	
+	color:white;
+	font-weight: bolder;
+	font-size:20pt;
+}
+
+.resultB{
+	
+	margin:30px;
+	
+	width:300px;
+	height:50px;
+	
+	background-color:#00a0ff;
+	
+	border:3px solid white;
+	border-radius: 30px;
+	
+	color:white;
+	font-size:15pt;
+	
+	
+}
+
+.resultB:hover{
+	
+	background-color:white;
+	color:#00a0ff;
+	
+	font-weight: bolder;
+}
+
+
+
+/*----------본 게임 css-------------*/
+
+#menuBar{
+	
+	
+	width:100%;
+	height:150px;
+
+	background-color: #00a0ff;
+	
+}
+
+
+#smallLogo{
+	
+	width:600px;
+	height:150px;
+	
+}
+
+
+#homeB{
+	
+	width:70px;
+	height:70px;
+	float:left;
+	margin-top:40px; 
+	margin-left:40px;
+	
+}
+
+.typeButton{
+	
+	width:500px;
+	height: 600px;
+	
+	border:1px solid #cccccc;
+	
+	
+}
+
+#exBox{
+	
+	margin:auto;
+	margin-top:50px;
+	
+	width:800px;
+	height:500px;
+	
+	background-color:white;
+	border:1px solid #cccccc;
+	border-radius: 10px;
+	
+	color:#888888;
+	font-size:15pt;
+	
+	
+}
+
+#exBox b{
+	
+	color:#00a0ff;
+	
+}
+
+#startB{
+	
+	margin:30px;
+	
+	width:200px;
+	height:50px;
+	
+	background-color:white;
+	
+	border:1px solid #00a0ff;
+	border-radius: 30px;
+	
+	color:#00a0ff;
+	font-size: 15pt;
+	
+	
+	
+	
+}
+
+#startB:hover{
+	
+	border:3px solid #00a0ff;
+	
+	font-weight: bolder;
+	
+}
+
+
+#quizFrame{
+	
+	margin:auto;
+	margin-top:50px;
+	
+	width:500px;
+	height:600px;
+	
+	background-color:white;
+	border:1px solid #cccccc;
+	
+	box-shadow: 5px 5px #cccccc;
+	
+	
+}
+
+#quizFrame img{
+	
+	width:400px;
+	height: 400px;
+	
+	border:1px solid #cccccc;
+	
+}
