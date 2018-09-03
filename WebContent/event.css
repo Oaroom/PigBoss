@@ -416,9 +416,218 @@ body{
 
 #quizFrame img{
 	
+	
+	margin-top:50px;
 	width:400px;
 	height: 400px;
 	
 	border:1px solid #cccccc;
 	
 }
+
+
+#quizTable{
+	
+	margin:50px;
+	
+	height:400px;
+	width:500px;
+	
+	font-size:30pt;
+	font-weight:bolder;
+	color:#333333;
+	
+	
+	text-align: left;
+	
+	
+}
+
+#quizTable input[type=text]{
+	
+	width:300px;
+	
+	background-color:#FaFaFa;
+	
+	font-size:30pt;
+	font-weight:bolder;
+	color:#333333;
+	
+	border:none;
+	
+}
+
+#quizTable input[type=radio]{
+	
+	
+	width:20px;
+	height: 20px;
+	
+}
+
+#nextB{
+	
+	
+	
+	width:300px;
+	height: 60px;
+	
+	font-size:20pt;
+	
+	background-color:#00a0ff;
+	border:1px solid white;
+	
+	color:white;
+	
+	
+}
+
+
+#nextB:hover{
+	
+	background-color:white;
+	color:#00a0ff;
+	
+}
+
+
+#scoreTable{
+
+	font-weight:bolder;
+	font-size:20pt;
+	color:#444444;
+
+	
+}
+
+#scoreBox{
+	
+	margin:auto;
+	
+	width:1000px;
+	height: 600px;
+	
+	background-color: white;
+	border:1px solid white;
+	border-radius: 30px;
+	
+}
+
+
+#scoreBox h1{
+	
+	color:#999999;
+	font-size:30pt;
+	
+}
+
+#scoreText{
+	
+	font-size: 50pt;
+	font-weight: 900;	
+}
+
+
+.scoreB{
+	
+	margin:20px;
+	margin-top:50px;
+	
+	width:200px;
+	height: 50px;
+	
+	background-color:white;
+	
+	color:#aaaaaa;
+	font-size:15pt;
+	
+	border:2px solid #aaaaaa;
+	
+
+}
+
+.scoreB:hover{
+	
+	border:5px solid #aaaaaa;
+	font-weight: 900
+	
+}
+
+#saveForm{
+	
+	text-align:center;
+	
+	margin:20px;
+	
+	background-color:white;
+	
+	border:1px solid white;
+	border-radius:50px;
+	
+	font-size:20pt;
+	color:#555555;
+	
+}
+
+#saveForm h1{
+	
+	margin:auto;
+	width:500px;
+	
+	font-size:30p;
+	color:#04a0ec;
+	
+	border: 5px solid #00a0ff;
+}
+
+#saveForm input[type=text],[type=password],[type=number]
+{
+	
+	width:300px;
+	height:30px;
+	
+	border:1px solid white;
+	border-bottom :3px solid #cccccc;
+	
+	font-size:20pt;
+	
+	text-align: center;
+	
+	
+}
+
+#saveTable{
+	
+	width:500px;
+	height: 200px;
+	
+}
+
+#saveTable th{
+	
+	text-align: right;
+	width:160px;
+	
+	
+}
+
+#saveB{
+	
+	
+	
+	width:200px;
+	height: 50px;
+	
+	background-color:white;
+	
+	border:3px solid white;
+	
+	color:#555555;
+	font-size:15pt;
+	font-weight: bolder;
+	
+	
+	
+	
+}
+

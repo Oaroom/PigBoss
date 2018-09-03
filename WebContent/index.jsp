@@ -24,7 +24,7 @@
 			
 			<input type="submit" class="mainB" value="도전방법" onclick="location.href='help.jsp'"/>
 			<input type="submit" class="mainB" value="돼지보스 도전하기"  onclick="location.href='start.jsp'"/>
-			<input type="submit" class="mainB" value="결과 확인하기"  onclick="location.href='result.jsp'"/>
+			<input type="submit" class="mainB" value="결과 확인하기"  onclick="location.href='ranking.jsp'"/>
 		</td>
 		<td>
 			<div id="mainImg">

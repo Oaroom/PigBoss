@@ -9,29 +9,78 @@
 </head>
 <body align="center">
 
-<img alt="" src="img/pikicast.png">
+<%
+
+	request.setCharacterEncoding("utf-8");
+	String value[] = request.getParameter("resultText").split(",");
+	
+	String answer[]={"1","2","3","4","1","2","3","4","1","2"};
+	
+	
+	int score = 0;
+	int index=0;
+	
+	
+	String level[] ={"신생아 아기돼지", "청소년돼지","청장년 돼지","진정한 돼지보스"};
+	
+	for(int i = 0 ; i < value.length ;i++){
+		
+		if(value[i].equals(answer[i])){
+			
+			score += 10;
+			
+		}	
+	
+	}
+	
+	
+	
+	if(score <= 30){
+		
+		index =0;
+		
+	}else if( score >= 40 && score <=60){
+		
+		index =1;
+		
+	}else if(score >= 70 && score <= 90){
+		
+		index =2;
+	}else if(score == 100){
+		
+		index =3;
+	}
+	
+	
+	
+%>
+
+	<img alt="" src="img/pikicast.png">
 
 
-<div id="Frame" style="min-height: 500px;">
-
-	<table id="resultTable" >
-		<tr>
-			<th width="150px">
-				<img alt="" src="img/ranking.png">랭킹<img alt="" src="img/ranking.png">
-			</th>
-			<th>
-				<img alt="" src="img/pig.png"> 유저<img alt="" src="img/pig.png">
-			</th>
-			<th>
-				<img alt="" src="img/star.png">점수<img alt="" src="img/star.png">
-			</th>
-		</tr>
-	</table>
-
-</div>
-
-<input type="submit" class="resultB" value="내 결과 확인하기"/>
- <input type="submit" class="resultB" value="뒤로가기" onclick="location.href='index.jsp'"/>
+	<div id="scoreBox">
+	
+	<br>
+	
+		<table align="center" id="scoreTable" >
+			<tr>
+				<td>
+				<img alt="" src="img/pig.png">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				 당신은 바로, <br>
+				<font id="scoreText"><%= level[index] %> !<br> </font>
+				점수 (<b> <%=score %></b> / 100) 점 <br>
+				
+				</td>
+			</tr>
+		</table>
+		<input type="submit" class="scoreB" value="결과 기록" onclick="window.open('saveResult.jsp?score=<%=score %>','결과 기록하기','width=430px,height=300px,location=0,status=no,scrollbars=yes');">
+		<input type="submit" class="scoreB" value="랭킹 보기" onclick="location.href='ranking.jsp'">
+		<input type="submit" class="scoreB" value="메인 으로" onclick="location.href='index.jsp'">
+	</div>
 
 </body>
 </html>
